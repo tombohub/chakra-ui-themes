@@ -40,6 +40,7 @@ import ButtonExample from "@/components/ButtonExample";
 
 import { SearchIcon } from "@chakra-ui/icons";
 import TableExample from "@/components/TableExample";
+import TagExample from "@/components/TagExample";
 
 export default function Home() {
   return (
@@ -160,6 +161,8 @@ export default function Home() {
             </HStack>
 
             <TableExample />
+
+            <TagExample />
           </CardBody>
         </Card>
       </Container>
